@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.winner-note {
+  margin-bottom: 3.2rem;
+  font-size: 6.2rem;
+}
+
+.main-heading {
+  margin-bottom: 1.6rem;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.board {
+  display: grid;
+  width: 100%;
+  gap: 2px;
+  width: 40%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.game-title {
+  display: grid;
+  justify-content: center;
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid > span {
+  color: white;
+  font-size: 3.2rem;
+}
+
+.score {
+  align-self: center;
+}
+
+.button {
+  margin-top: 3.2rem;
+  font-style: inherit;
+  font-size: 3.2rem;
+  background-color: black;
+  color: white;
+  border-style: none;
+  padding: 10px;
+  visibility: hidden;
+}
